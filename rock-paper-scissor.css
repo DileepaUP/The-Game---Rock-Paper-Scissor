@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font: arial;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.play-button {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.play-img {
+    height: 50px;
+}
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.score {
+    margin-top: 60px;
+}
+
+.reset-score-btn, 
+.autoplay-btn, 
+.reset-btn-option-yes, 
+.reset-btn-option-no {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.para-reset {
+    margin-top: 30px;
+}
